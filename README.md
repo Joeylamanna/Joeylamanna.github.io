@@ -1,4 +1,4 @@
-#Project Descroption
+#Project Description
 This project showcases my website built in React JS to show my personal coding projects featuring a home page, about page, and contact page. There are also links to my LinkedIn, GitHub, HackerRank, and LeetCode.
 # Getting Started with Create React App
 
