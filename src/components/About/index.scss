@@ -2,12 +2,64 @@
 .text-zone h1 {
     margin-left: 120px; 
     color: #71C2FF;
-    font-size: calc(.6 * (1.5vh + 4.1vw));
+    font-size: calc(.9 * (1.5vh + 4.1vw));
 }
 
 .text-zone p {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceInUp 2s forwards ;
     margin-left: 120px;
     margin-right: 250px;
     color: #71C2FF;
     font-size: calc(.3 * (1.5vh + 4.1vw));
+
+    &:nth-of-type(1){
+        animation-delay: 0s;
+    }
+    &:nth-of-type(2){
+        animation-delay: 0s;
+    }
 }
+.text-animate-hover {
+    &:hover {
+        color: rgb(0, 255, 229);
+    }
+}
+
+@keyframes bounceInUp {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    from {
+      opacity: 0;
+      transform: translate3d(0, 3000px, 0) scaleY(5);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: translate3d(0, -20px, 0) scaleY(0.9);
+    }
+  
+    75% {
+      transform: translate3d(0, 10px, 0) scaleY(0.95);
+    }
+  
+    100% {
+        opacity: 1;
+      transform: translate3d(0, -5px, 0) scaleY(0.985);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .bounceInUp {
+    animation-name: bounceInUp;
+  }
