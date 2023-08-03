@@ -5,12 +5,13 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 
+
 function App() {
   return (
     <>
     <Routes>
       <Route element={<Layout/>} >
-        <Route path = "home" element={<Home/>}/>
+        <Route path = "home" index element={<Home/>}/>
         <Route path = "about" index element={<About />} />
         <Route path = "contact" index element={<Contact />} />
       </Route>
