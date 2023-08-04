@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <>
-        <div class="home-page">
+        <div class="container home-page ">
          <div class="typewriter">
             <h1>Hi, I'm Joey an aspiring coder</h1>
             <h2>Experience: </h2> 
@@ -15,7 +15,7 @@ const Home = () => {
 
             </div>
         </div>
-        {/* <Loader type="pacman"/> */}
+        <Loader type="pacman"/>
         </>
     )
 }

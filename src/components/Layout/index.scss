@@ -1,48 +1,59 @@
 
-.container {
-    width: 100% ;
+.page {
+    width: 100%;
     height: 100%;
     position: relative;
 }
 
+// .tags {
+//     color: var(--glow-color);
+//     opacity: 0.6;
+//     position: relative;
+//     bottom: 0;
+//     left: 120px;
+//     font-size: calc(.52 * (1.5vh + 4.1vw));
+//     font-family: 'La Belle Aurore';
+//   animation: text-flicker 5s linear infinite;
+// }
+
+// .top-tag {
+//   bottom: auto;
+//   top: 5px;
+//   right: 100px;
+// }
+
+// .second-top {
+//   bottom: auto;
+//   top: 10px;
+//   left: 150px;
+// }
 
 
-.tags {
-    color: var(--glow-color);
-    opacity: 0.6;
-    position: relative;
-    bottom: 0;
-    left: 120px;
-    font-size: calc(.52 * (1.5vh + 4.1vw));
-    font-family: 'La Belle Aurore';
-  animation: text-flicker 5s linear infinite;
+// .bottom-tags {
+//   position: relative;
+//   left: 150px;
+// }
+
+// .bottom-tag-html {
+//   top: 10px;
+//   margin-left: 0px;
+// }
+
+.container {
+  width: 100%;
+  left: 4.5%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
 }
-
-.top-tag {
-  bottom: auto;
-  top: 5px;
-  right: 100px;
-}
-
-.second-top {
-  bottom: auto;
-  top: 10px;
-  left: 150px;
-}
-
-
-.bottom-tags {
-  position: relative;
-  left: 150px;
-}
-
-.bottom-tag-html {
-  top: 10px;
-  margin-left: 0px;
-}
-
-
-
 :root {
   --glow-color:  #71C2FF;
 }
