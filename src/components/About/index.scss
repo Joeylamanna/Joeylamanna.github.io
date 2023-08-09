@@ -20,11 +20,11 @@
 
     div {
         position: absolute;
-        width: calc(.5 * 9vh + 20vw);
-        height: calc(.5 * 9vh + 20vw);
+        width: 200px;
+        height: 200px;
         border: 1px solid rgb(204, 204, 204);
         background: rgba(255, 255, 255, 0.4);
-        font-size:calc(.5 * 9vh + 20vw);
+        font-size:150px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -33,27 +33,27 @@
     }
 
     .face1 {
-        transform: translateZ(calc(.5 * 9vh + 10vw));
+        transform: translateZ(100px);
 
     }
     .face2 {
-        transform: rotateY(90deg) translateZ(calc(.5 * 9vh + 10vw));
+        transform: rotateY(90deg) translateZ(100px);
 
     }
     .face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(calc(.5 * 9vh + 10vw));
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
 
     }
     .face4 {
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(calc(.5 * 9vh + 10vw));
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
 
     }
     .face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(calc(.5 * 9vh + 10vw));
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
 
     }
     .face6 {
-        transform: rotateX(-90deg) translateZ(calc(.5 * 9vh + 10vw));
+        transform: rotateX(-90deg) translateZ(100px);
 
     }
 }
@@ -97,10 +97,10 @@
     
 
     &:nth-of-type(1){
-        animation-delay: 0s;
+        animation-delay: 1s;
     }
     &:nth-of-type(2){
-        animation-delay: 0s;
+        animation-delay: 1s;
     }
 }
 .text-animate-hover {
