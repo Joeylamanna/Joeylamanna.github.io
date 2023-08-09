@@ -5,55 +5,87 @@
     position: relative;
 }
 
-// .tags {
-//     color: var(--glow-color);
-//     opacity: 0.6;
-//     position: relative;
-//     bottom: 0;
-//     left: 120px;
-//     font-size: calc(.52 * (1.5vh + 4.1vw));
-//     font-family: 'La Belle Aurore';
-//   animation: text-flicker 5s linear infinite;
-// }
+.tags{
+    top: auto;
+    color: var(--glow-color);
+    opacity: 0.6;
+    position: relative;
+    bottom: 0;
+    left: 120px;
+    font-size: calc(.52 * (1.5vh + 4.1vw));
+    font-family: 'La Belle Aurore';
+  animation: text-flicker 5s linear infinite;
+}
 
-// .top-tag {
-//   bottom: auto;
-//   top: 5px;
-//   right: 100px;
-// }
+.top-tag {
+  top: 5px;
+  left: 0px;
+}
 
-// .second-top {
-//   bottom: auto;
-//   top: 10px;
-//   left: 150px;
-// }
+.second-top {
+  
+  bottom: auto;
+  top: 10px;
+  left: 100px;
+}
 
 
-// .bottom-tags {
-//   position: relative;
-//   left: 150px;
-// }
+.bottom-tags {
+ position: relative;
+  top: 50px;
+  left: 100px;
+}
 
-// .bottom-tag-html {
-//   top: 10px;
-//   margin-left: 0px;
-// }
+.bottom-tag-html {
+  position: relative;
+  top: 50px;
+  left: 0px
+}
 
 .container {
   width: 100%;
-  left: 4.5%;
+  left: 60px;
   will-change: contents;
   height: 90%;
-  min-height: 566px;
   position: absolute;
   opacity: 0;
-  top: 5%;
+  top: 0%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+
+.about-page, .contact-page {
+  .text-zone h1 {
+    color: #71C2FF;
+    font-size: calc(.9 * (1.5vh + 4.1vw));
+}
+
+.text-zone p {
+    display: inline-block;
+    opacity: 0;
+    margin-right: 50%;
+    animation: bounceInUp 2s forwards ;
+    color: #71C2FF;
+    font-size: calc(.3 * (1.5vh + 4.1vw));
+    
+
+    &:nth-of-type(1){
+        animation-delay: 1s;
+    }
+    &:nth-of-type(2){
+        animation-delay: 1s;
+    }
+}
+.text-animate-hover {
+    &:hover {
+        color: rgb(0, 255, 229);
+    }
+}
+  }
+ 
 :root {
   --glow-color:  #71C2FF;
 }

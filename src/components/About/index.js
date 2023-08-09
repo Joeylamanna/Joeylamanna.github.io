@@ -23,6 +23,9 @@ useEffect(() => {
     return (
         <> 
          <div className='container about-page'>
+         <span className="tags top-tag">&lt;/div&gt;</span>
+        <br/>
+        <span className="tags second-top">&lt;body&gt;</span>
             <div className='text-zone'> 
                 <h1>
                     <AnimatedLetters letterClass={letterClass}
@@ -48,7 +51,11 @@ useEffect(() => {
                
 
             </div>
-
+            <br/>
+            <span className="tags bottom-tags">&lt;/body&gt;</span>
+            <br/>
+            <span className=" tags bottom-tag-html">&lt;/div&gt;</span>
+            
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>    

@@ -2,7 +2,6 @@
     height: auto;
     width: auto;
     position: relative;
-    margin-left: 11em;
     margin-top: 0%;
 
    .typewriter h1 {
@@ -16,7 +15,7 @@
         white-space: nowrap; /* Keeps the content on a single line */
         letter-spacing: .15em; /* Adjust as needed */
         animation:
-        typing 2s steps(60, end),
+        typing 2s 1s steps(60, end),
         blink-caret 1s  step-end 4 forwards;
 
       }
@@ -90,7 +89,7 @@
       }
       .glowing-btn {
         position: relative;
-        margin: 2% 3% 4%;
+        // margin: 2% 3% 4%;
         color: var(--glow-color);
         cursor: pointer;
         padding: 0.5em .5em;
