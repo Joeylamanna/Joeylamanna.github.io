@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.56c8ffdb.css",
-    "main.js": "/static/js/main.30a79a94.js",
+    "main.js": "/static/js/main.8ebb7bdf.js",
     "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
     "static/media/JoeyPCLogo.png": "/static/media/JoeyPCLogo.856949c8b842298151b6.png",
     "static/media/Joey Lamanna.png": "/static/media/Joey Lamanna.0677903570fbfade3335.png",
@@ -10,11 +10,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.56c8ffdb.css.map": "/static/css/main.56c8ffdb.css.map",
-    "main.30a79a94.js.map": "/static/js/main.30a79a94.js.map",
+    "main.8ebb7bdf.js.map": "/static/js/main.8ebb7bdf.js.map",
     "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56c8ffdb.css",
-    "static/js/main.30a79a94.js"
+    "static/js/main.8ebb7bdf.js"
   ]
 }
