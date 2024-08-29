@@ -3,7 +3,7 @@
     padding: auto;
     width: 105px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 3;
     min-height: 410px;
@@ -31,7 +31,7 @@ nav {
     position: absolute;
     height: 210px;
     top: 50%;
-    margin-top: -120px;
+    margin-top: -170px;
     width: 100%;
 
     a{
@@ -63,7 +63,7 @@ nav {
 
         &:after {
             content: '';
-            font-size: 22px;
+            font-size: 18px;
             position: absolute;
             bottom: 0;
             display: block;
@@ -90,6 +90,12 @@ nav {
     a.contact-link {
         &:after{
             content: 'CONTACT'
+        }
+    }
+
+    a.portfolio-link {
+        &:after{
+            content: 'PORTFOLIO'
         }
     }
 

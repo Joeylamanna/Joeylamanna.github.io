@@ -35,18 +35,18 @@ useEffect(() => {
                     
                     
                 </h1>
-                <p> I am a Computer Science student in my junior year
+                <p> I am a Computer Science student in my Senior year
                     at Villanova University with an interest
                     in coding, cybersecurity, web development,
-                    and app development. I am a hard-working
+                    app development, and Business opportunities. I am a consistently achieving
                     student and always strive to learn new technologies.  
                 </p>
                 <p> 
-                    I am a hard-working, motivated, and consistent asset to
-                    any team. I love working in teams and combining ideas to
-                    achieve completing projects. 
-                    I'm currently seeking any offers for internship positions in 
-                    the IT industry with emphasis on development or cybersecurity.
+                    I am a hard-working, motivated, and trusted asset to
+                    any team. I love working in groups and combining ideas to
+                    achieve project goals. 
+                    I'm currently seeking any offers for full-time positions in 
+                    the IT industry with emphasis on development,Cybersecurity, or Business.
                 </p>
                
 
