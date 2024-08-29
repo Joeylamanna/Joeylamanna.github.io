@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.56c8ffdb.css",
-    "main.js": "/static/js/main.8ebb7bdf.js",
+    "main.css": "/static/css/main.8fc10a9f.css",
+    "main.js": "/static/js/main.738314b2.js",
     "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
+    "static/media/fitnessapp.png": "/static/media/fitnessapp.9d501c46f56aa76b2a37.png",
+    "static/media/SocialConnect.png": "/static/media/SocialConnect.4a51e37c8ff56b36735d.png",
+    "static/media/Blackjack.png": "/static/media/Blackjack.3568504e23450ff19ee4.png",
+    "static/media/sql.png": "/static/media/sql.85fb38d6773862e917f4.png",
+    "static/media/Craps.png": "/static/media/Craps.675f948fc9c2d704d26f.png",
     "static/media/JoeyPCLogo.png": "/static/media/JoeyPCLogo.856949c8b842298151b6.png",
     "static/media/Joey Lamanna.png": "/static/media/Joey Lamanna.0677903570fbfade3335.png",
+    "static/media/bingo.png": "/static/media/bingo.04fce442a27fefcdc195.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.56c8ffdb.css.map": "/static/css/main.56c8ffdb.css.map",
-    "main.8ebb7bdf.js.map": "/static/js/main.8ebb7bdf.js.map",
+    "main.8fc10a9f.css.map": "/static/css/main.8fc10a9f.css.map",
+    "main.738314b2.js.map": "/static/js/main.738314b2.js.map",
     "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c8ffdb.css",
-    "static/js/main.8ebb7bdf.js"
+    "static/css/main.8fc10a9f.css",
+    "static/js/main.738314b2.js"
   ]
 }
